@@ -54,6 +54,25 @@ nav{
   background-color: rgba(190,190,0,0.6);
 }
 
+.wppButton{
+  overflow: hidden;
+  z-index: 1000;
+  border-radius: 50px;
+  width: 7%;
+  height: 13vh;
+  position: fixed;
+  bottom : 3.5%;
+  right: 3%;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+  .wppButton:hover{
+    cursor: pointer;
+  }
+
 @media(max-width: 320px){
   #carrousellItem{
     height: 25vh;
@@ -9806,14 +9825,14 @@ h6,
   margin: 0 5px;
   width: 25px;
   height: 25px;
-  background: #FEF1EF;
-  border: 1px solid #F9A392;
+  background: white;
+  border: 1px solid white;
   transition: .5s;
 }
 
 .testimonial-carousel .owl-dot.active {
   width: 50px;
-  background: #F9A392;
+  background: rgba(200,200,0,0.7);
 }
 
 .footer p,
