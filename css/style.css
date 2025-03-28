@@ -81,6 +81,10 @@ nav{
   #hoursCard{
     height: 50vh;
   }
+
+  .wppButton{
+    width: 25%;
+  }
 }
 
 @media(min-width: 321px) and (max-width: 480px){
@@ -138,6 +142,15 @@ nav{
 }
 
 /* BREAKPOINTS PERSONALIZADOS */
+@media(min-width: 321px){
+  .wppButton{
+    min-width: 85px;
+    max-width: 85px;
+    min-height: 85px;
+    max-height: 85px;
+  }
+}
+
 @media(min-width: 481px) and (max-width: 600px){
   #carrousellItem{
     max-height: 250px;
