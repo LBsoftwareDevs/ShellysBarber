@@ -1,11 +1,43 @@
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-:root {
+
+/* ###################################### PERSONALIZACIÓN ###################################### */
+nav{
+  color: white;
+  background-color: black;
+}
+
+.navIcon{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.footerIcon{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#hoursCard{
+  background-color: rgba(190,190,0,0.6);
+}
+
+
+/* ###################################### PERSONALIZACIÓN ###################################### */
+
+/* :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -34,7 +66,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Poppins", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
+} */
 
 *,
 *::before,
@@ -61,7 +93,7 @@ body {
   line-height: 1.5;
   color: #757575;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(3,3,3);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
