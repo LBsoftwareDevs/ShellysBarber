@@ -17,6 +17,26 @@ nav{
   }
 }
 
+#navButton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 17%;
+  border: none;
+  hr{
+    border: 2px solid white;
+    border-radius: 100px;
+    width: 90%;
+    margin: 12%;
+  }
+}
+
+#carrousellItem{
+  height: 100vh;
+}
+
 .footerIcon{
   width: 70%;
   display: flex;
@@ -34,6 +54,94 @@ nav{
   background-color: rgba(190,190,0,0.6);
 }
 
+@media(max-width: 320px){
+  #carrousellItem{
+    height: 25vh;
+  }
+
+  #hoursCard{
+    height: 50vh;
+  }
+}
+
+@media(min-width: 321px) and (max-width: 480px){
+  #carrousellItem{
+    min-height: 150px;
+    max-height: 180px;
+  }
+
+  #navButton{
+    width: 12%;
+  }
+
+  #hoursCard{
+    height: 50vh;
+  }
+}
+
+@media(min-width: 481px) and (max-width: 768px){
+
+  #navButton{
+    width: 10%;
+  }
+
+  #hoursCard{
+    height: 50vh;
+  }
+}
+
+@media(min-width: 769px) and (max-width: 960px){
+  #carrousellItem{
+    height: 63vh;
+  }
+
+  #navButton{
+    width: 10%;
+  }
+
+  #hoursCard{
+    height: 50vh;
+  }
+}
+
+@media(min-width: 961px) and (max-width: 1080px){
+  #carrousellItem{
+    height: 70vh;
+  }
+
+  #navButton{
+    width: 8%;
+  }
+
+  #hoursCard{
+    height: 50vh;
+  }
+}
+
+/* BREAKPOINTS PERSONALIZADOS */
+@media(min-width: 481px) and (max-width: 600px){
+  #carrousellItem{
+    max-height: 250px;
+  }
+}
+
+@media(min-width: 601px) and (max-width: 768px){
+  #carrousellItem{
+    max-height: 340px;
+  }
+}
+
+@media(max-width: 991px){
+  #mobileNV{
+    display: none;
+  }
+}
+
+@media(min-width: 992px){
+  #navButton{
+    display: none;
+  }
+}
 
 /* ###################################### PERSONALIZACIÓN ###################################### */
 
